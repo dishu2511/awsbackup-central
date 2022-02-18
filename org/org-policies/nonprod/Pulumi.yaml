@@ -1,0 +1,6 @@
+name: nonprod-backup-policy
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Stack to create nonprod backup policy

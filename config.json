@@ -1,0 +1,28 @@
+{
+    "ORGANIZATION_ID": "<ORGANIZATION_ID>",
+    "IAM_USER": "<NAME_OF_IAM_USER>",
+    "STATE_BUCKET": "<NAME_OF_PULUMI_STATE_BUCKET>",
+    "REGION": "<REGION_ID>",
+    "OU": {
+        "NONPROD_OU_ID": "<NONPROD_OU>",
+        "PROD_OU_ID": "<PROD_OU>"
+    },
+    "ACCOUNT": {
+        "MASTERACCOUNT": {
+            "ID": "<MASTER_ACCOUNT_ID>"
+        },
+        "SHAREDSERVICES": {
+            "ID": "<SHAREDSERVICES_ACCOUNT_ID>"
+        },
+        "DEV": {
+            "ID": "<DEV_ACCOUNT_ID>"
+        },
+        "PROD": {
+            "ID": "<PROD_ACCOUNT_ID>"
+        },
+        "SHAREDBACKUPS": {
+            "ID": "<SHAREDBACKUPS_ACCOUNT_ID>",
+            "KMS": "<KMS_KEY_ID>"
+        }
+    }
+}

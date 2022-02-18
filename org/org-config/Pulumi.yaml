@@ -1,0 +1,6 @@
+name: org-config
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Stack to configure aws configs in org account

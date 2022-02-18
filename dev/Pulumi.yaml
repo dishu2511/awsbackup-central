@@ -1,0 +1,6 @@
+name: dev-backup
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Stack to create dev backup setup

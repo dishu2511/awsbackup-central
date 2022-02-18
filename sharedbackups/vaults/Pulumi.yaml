@@ -1,0 +1,6 @@
+name: sharedbackup-vaults
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Stack to create backup vaults in Sharedbackups account
